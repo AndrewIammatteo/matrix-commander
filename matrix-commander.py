@@ -3402,7 +3402,7 @@ if __name__ == "__main__":  # noqa: C901 # ignore mccabe if-too-complex
     if "DEBUG" in os.environ:
         logging.getLogger().setLevel(logging.DEBUG)
     else:
-        logging.getLogger().setLevel(logging.INFO)
+        logging.getLogger().setLevel(logging.DEBUG)
 
     # Construct the argument parser
     ap = argparse.ArgumentParser(
